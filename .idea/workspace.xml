@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7eb871b3-1a25-4698-b8a4-65993ede7721" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractFactory/AppLauncher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractFactory/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractFactory/MacOSButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractFactory/MacOSCheckbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractFactory/MacOSFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractFactory/WindowsButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractFactory/WindowsCheckbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractFactory/WindowsFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractFactory/interfaces/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractFactory/interfaces/Checkbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/abstractFactory/interfaces/GUIFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder/HttpRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder/HttpRequestAppBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +55,7 @@
       <recent name="creational.abstractFactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AppLauncher">
+  <component name="RunManager" selected="Application.HttpRequestAppBuilder">
     <configuration name="AppLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="creational.abstractFactory.AppLauncher" />
       <module name="DesignPatterns" />
@@ -105,8 +95,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HttpRequestAppBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="creational.builder.HttpRequestAppBuilder" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="creational.builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HttpRequestAppBuilder" />
         <item itemvalue="Application.AppLauncher" />
         <item itemvalue="Application.FactoryMethodDemo" />
         <item itemvalue="Application.Example" />
