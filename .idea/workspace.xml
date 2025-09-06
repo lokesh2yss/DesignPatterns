@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7eb871b3-1a25-4698-b8a4-65993ede7721" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/MusicPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/Playlist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/PlaylistIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/interfaces/IterableCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/interfaces/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/observer/FitnessData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/observer/GoalNotifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/observer/LiveActivityDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/observer/ProgressLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/observer/interfaces/FitnessDataObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/observer/interfaces/FitnessDataSubject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +60,7 @@
       <recent name="creational.abstractFactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MusicPlayer">
+  <component name="RunManager" selected="Application.FitnessAppObserverDemo">
     <configuration name="BridgeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="structural.bridge.BridgeDemo" />
       <module name="DesignPatterns" />
@@ -74,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlyweightDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.flyweight.FlyweightDemo" />
+    <configuration name="FitnessAppObserverDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral.observer.FitnessAppObserverDemo" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structural.flyweight.*" />
+          <option name="PATTERN" value="behavioral.observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImageGalleryAppV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.proxy.ImageGalleryAppV1" />
+    <configuration name="FlyweightDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="structural.flyweight.FlyweightDemo" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structural.proxy.*" />
+          <option name="PATTERN" value="structural.flyweight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FitnessAppObserverDemo" />
         <item itemvalue="Application.MusicPlayer" />
         <item itemvalue="Application.FlyweightDemo" />
         <item itemvalue="Application.BridgeDemo" />
         <item itemvalue="Application.ImageGalleryAppV2" />
-        <item itemvalue="Application.ImageGalleryAppV1" />
       </list>
     </recent_temporary>
   </component>
