@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7eb871b3-1a25-4698-b8a4-65993ede7721" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/observer/FitnessData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/observer/GoalNotifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/observer/LiveActivityDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/observer/ProgressLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/observer/interfaces/FitnessDataObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/observer/interfaces/FitnessDataSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy/DistanceBasedShipping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy/ECommerceAppV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy/FlatRateShipping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy/ShippingCostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy/ThirdPartyApiShipping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy/WeightBasedShipping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/strategy/interfaces/ShippingStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,13 +62,26 @@
       <recent name="creational.abstractFactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FitnessAppObserverDemo">
+  <component name="RunManager" selected="Application.ECommerceAppV2">
     <configuration name="BridgeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="structural.bridge.BridgeDemo" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="structural.bridge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ECommerceAppV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral.strategy.ECommerceAppV2" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behavioral.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,19 +115,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImageGalleryAppV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.proxy.ImageGalleryAppV2" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="structural.proxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MusicPlayer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="behavioral.iterator.MusicPlayer" />
       <module name="DesignPatterns" />
@@ -128,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ECommerceAppV2" />
         <item itemvalue="Application.FitnessAppObserverDemo" />
         <item itemvalue="Application.MusicPlayer" />
         <item itemvalue="Application.FlyweightDemo" />
         <item itemvalue="Application.BridgeDemo" />
-        <item itemvalue="Application.ImageGalleryAppV2" />
       </list>
     </recent_temporary>
   </component>
