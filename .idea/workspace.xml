@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7eb871b3-1a25-4698-b8a4-65993ede7721" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/BridgeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/RasterRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/VectorRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/bridge/interfaces/Renderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/flyweight/CharacterFlyweightFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/flyweight/CharacterGlyph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/flyweight/TextEditorClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/structural/flyweight/interfaces/CharacterFlyweight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/MusicPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/Playlist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/PlaylistIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/interfaces/IterableCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/iterator/interfaces/Iterator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,26 +60,13 @@
       <recent name="creational.abstractFactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FlyweightDemo">
+  <component name="RunManager" selected="Application.MusicPlayer">
     <configuration name="BridgeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="structural.bridge.BridgeDemo" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="structural.bridge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileExplorerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structural.composite.FileExplorerApp" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="structural.composite.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,13 +113,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MusicPlayer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral.iterator.MusicPlayer" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="behavioral.iterator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MusicPlayer" />
         <item itemvalue="Application.FlyweightDemo" />
         <item itemvalue="Application.BridgeDemo" />
         <item itemvalue="Application.ImageGalleryAppV2" />
         <item itemvalue="Application.ImageGalleryAppV1" />
-        <item itemvalue="Application.FileExplorerApp" />
       </list>
     </recent_temporary>
   </component>
