@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7eb871b3-1a25-4698-b8a4-65993ede7721" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/state/DispensingState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/state/HasMoneyState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/state/IdleState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/state/ItemSelectedState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/state/VendingMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/state/interfaces/MachineState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/templateMethod/AbstractReportExporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/templateMethod/CsvReportExporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/templateMethod/PdfReportExporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/templateMethod/ReportData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +58,7 @@
       <recent name="creational.abstractFactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VendingMachineApp">
+  <component name="RunManager" selected="Application.ReportAppTemplateMethod">
     <configuration name="ECommerceAppV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="behavioral.strategy.ECommerceAppV2" />
       <module name="DesignPatterns" />
@@ -87,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MusicPlayer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavioral.iterator.MusicPlayer" />
+    <configuration name="ReportAppTemplateMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral.templateMethod.ReportAppTemplateMethod" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="behavioral.iterator.*" />
+          <option name="PATTERN" value="behavioral.templateMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReportAppTemplateMethod" />
         <item itemvalue="Application.VendingMachineApp" />
         <item itemvalue="Application.SmartHomeApp" />
         <item itemvalue="Application.ECommerceAppV2" />
         <item itemvalue="Application.FitnessAppObserverDemo" />
-        <item itemvalue="Application.MusicPlayer" />
       </list>
     </recent_temporary>
   </component>
