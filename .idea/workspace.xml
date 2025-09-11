@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7eb871b3-1a25-4698-b8a4-65993ede7721" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/visitor/AreaCalculatorVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/visitor/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/visitor/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/visitor/SvgExporterVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/visitor/interfaces/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/visitor/interfaces/ShapeVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/mediator/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/mediator/FormMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/mediator/Label.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/mediator/MediatorApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/mediator/TextField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/mediator/UIComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/mediator/interfaces/UIMediator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,13 +61,13 @@
       <recent name="creational.abstractFactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VisitorPatternDemo">
-    <configuration name="ECommerceAppV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavioral.strategy.ECommerceAppV2" />
+  <component name="RunManager" selected="Application.MediatorApp">
+    <configuration name="MediatorApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral.mediator.MediatorApp" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="behavioral.strategy.*" />
+          <option name="PATTERN" value="behavioral.mediator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MediatorApp" />
         <item itemvalue="Application.VisitorPatternDemo" />
         <item itemvalue="Application.ReportAppTemplateMethod" />
         <item itemvalue="Application.VendingMachineApp" />
         <item itemvalue="Application.SmartHomeApp" />
-        <item itemvalue="Application.ECommerceAppV2" />
       </list>
     </recent_temporary>
   </component>
