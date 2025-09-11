@@ -10,7 +10,6 @@ public class TextEditor {
     public String getContent() {
         return content;
     }
-
     public TextEditorMemento save() {
         System.out.println("Saving state: \"" + content + "\"");
         return new TextEditorMemento(content);

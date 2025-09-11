@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7eb871b3-1a25-4698-b8a4-65993ede7721" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/memento/TextEditor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/memento/TextEditorMemento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/memento/TextEditorUndoManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chainOfResponsibility/AuthHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chainOfResponsibility/AuthorizationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chainOfResponsibility/BaseHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chainOfResponsibility/BusinessLogicHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chainOfResponsibility/RateLimitHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chainOfResponsibility/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chainOfResponsibility/ValidationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/chainOfResponsibility/interfaces/RequestHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/memento/TextEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behavioral/memento/TextEditor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +63,7 @@
       <recent name="creational.abstractFactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TextEditorUndoV2">
+  <component name="RunManager" selected="Application.RequestHandler">
     <configuration name="MediatorApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="behavioral.mediator.MediatorApp" />
       <module name="DesignPatterns" />
@@ -84,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextEditorUndoV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavioral.memento.TextEditorUndoV2" />
+    <configuration name="RequestHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral.chainOfResponsibility.RequestHandler" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="behavioral.memento.*" />
+          <option name="PATTERN" value="behavioral.chainOfResponsibility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VendingMachineApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavioral.state.VendingMachineApp" />
+    <configuration name="TextEditorUndoV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral.memento.TextEditorUndoV2" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="behavioral.state.*" />
+          <option name="PATTERN" value="behavioral.memento.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RequestHandler" />
         <item itemvalue="Application.TextEditorUndoV2" />
         <item itemvalue="Application.MediatorApp" />
         <item itemvalue="Application.VisitorPatternDemo" />
         <item itemvalue="Application.ReportAppTemplateMethod" />
-        <item itemvalue="Application.VendingMachineApp" />
       </list>
     </recent_temporary>
   </component>
