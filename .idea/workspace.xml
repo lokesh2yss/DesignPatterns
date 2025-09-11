@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7eb871b3-1a25-4698-b8a4-65993ede7721" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/memento/TextEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/memento/TextEditorMemento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behavioral/memento/TextEditorUndoManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/mediator/FormMediator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behavioral/mediator/FormMediator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/behavioral/mediator/TextField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/behavioral/mediator/TextField.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +57,7 @@
       <recent name="creational.abstractFactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MediatorApp">
+  <component name="RunManager" selected="Application.TextEditorUndoV2">
     <configuration name="MediatorApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="behavioral.mediator.MediatorApp" />
       <module name="DesignPatterns" />
@@ -83,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmartHomeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="behavioral.command.SmartHomeApp" />
+    <configuration name="TextEditorUndoV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="behavioral.memento.TextEditorUndoV2" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="behavioral.command.*" />
+          <option name="PATTERN" value="behavioral.memento.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TextEditorUndoV2" />
         <item itemvalue="Application.MediatorApp" />
         <item itemvalue="Application.VisitorPatternDemo" />
         <item itemvalue="Application.ReportAppTemplateMethod" />
         <item itemvalue="Application.VendingMachineApp" />
-        <item itemvalue="Application.SmartHomeApp" />
       </list>
     </recent_temporary>
   </component>
