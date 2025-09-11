@@ -8,7 +8,7 @@ public class TextField extends UIComponent{
         super(mediator);
     }
     public void setText(String newText) {
-        this.text = text;
+        this.text = newText;
         System.out.println("TextField updated: " + newText);
         notifyMediator();
     }

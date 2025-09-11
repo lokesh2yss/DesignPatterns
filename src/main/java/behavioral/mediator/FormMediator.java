@@ -25,7 +25,6 @@ public class FormMediator implements UIMediator {
         if (component == usernameField || component == passwordField) {
             boolean enableButton = !usernameField.getText().isEmpty() &&
                     !passwordField.getText().isEmpty();
-            System.out.println(enableButton);
             loginButton.setEnabled(enableButton);
         } else if (component == loginButton) {
             String username = usernameField.getText();
